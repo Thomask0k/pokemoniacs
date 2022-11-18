@@ -1,0 +1,31 @@
+{
+  "name": "pokemoniacs",
+  "version": "1.0.0",
+  "description": "tech savvy graduation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomask0k/pokemoniacs.git"
+  },
+  "author": "Farhana, Luciana, Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomask0k/pokemoniacs/issues"
+  },
+  "homepage": "https://github.com/Thomask0k/pokemoniacs#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "socket.io": "^4.5.3",
+    "uuidv4": "^6.2.13"
+  }
+}
